@@ -1,5 +1,6 @@
 {
-    "name": "vagrant/composer",
+    "name": "tooEasy/fir",
+    "description": "first package",
     "authors": [
         {
             "name": "Artur",
