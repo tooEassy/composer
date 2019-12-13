@@ -1,11 +1,13 @@
 <?php
 
-
 class First_package extends \Monolog\Logger
 {
 
-    public function hey(){
-        echo '<h1>HEY!</h1>';
-        \Monolog\Logger::ALERT;
+    public function hey($message = 'some text.'){
+        echo '<h1>Levels: ';
+        foreach(\Monolog\Logger::getLevels() as $key => $value) {
+            echo "($key $value) ";
+        };
+        echo ' ' . $message . '</h1>';
     }
 }
