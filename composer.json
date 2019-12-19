@@ -1,0 +1,12 @@
+{
+    "name": "vagrant/project",
+    "authors": [
+        {
+            "name": "Artur",
+            "email": "lavrinovichartur@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}
